@@ -1,0 +1,6 @@
+test_prompt,agent_response_excerpt,intent_resolution,relevance,groundedness,comments
+day-hike-gear,"Essential gear checklist for summer moderate terrain day hikes including pack, clothing, footwear, hydration, navigation, and safety items",5,5,5,Comprehensive and well-structured response with accurate gear recommendations
+overnight-camping,"First overnight camping essentials covering shelter, sleeping, cooking, safety, and leave-no-trace principles",5,5,5,Thorough coverage with strong safety focus and actionable advice
+three-day-backpacking,"Multi-day mountain backpacking priorities including weather safety, navigation, food planning, and emergency protocols",5,5,5,Excellent depth for multi-day trip planning with appropriate safety emphasis
+winter-hiking,"Winter vs summer gear comparison covering layering, traction, navigation, and cold weather safety protocols",5,5,4,Very detailed but slightly verbose in places; all claims accurate
+trail-difficulty,"Beginner trail difficulty assessment using ratings, distance, elevation gain, terrain, and fitness self-assessment",5,5,5,Clear and actionable guidance well suited for a beginner audience
