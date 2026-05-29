@@ -1,0 +1,6 @@
+test_prompt,agent_response_excerpt,intent_resolution,relevance,groundedness,comments
+day-hike-gear,"Essential gear checklist for summer moderate terrain day hikes covering footwear, clothing, hydration, and safety",4,4,4,Good coverage but less detailed than GPT-4.1; slightly less nuanced gear advice
+overnight-camping,"First overnight camping guide covering experience assessment, weather, shelter, safety, and leave-no-trace",4,4,4,Solid practical advice; slightly less depth than GPT-4.1 but fully actionable
+three-day-backpacking,"October mountain backpacking safety priorities covering weather, layering, navigation, and emergency protocols",4,4,4,Good safety guidance and concise; adequate for the question asked
+winter-hiking,"Winter gear and precautions including layering system, traction, navigation, and cold weather safety",4,4,4,Clear and structured; covers all key areas though with less nuance than GPT-4.1
+trail-difficulty,"Beginner trail assessment using length, elevation gain, terrain, difficulty ratings, and fitness check",4,4,5,Practical and well-structured; groundedness is strong with accurate metrics
