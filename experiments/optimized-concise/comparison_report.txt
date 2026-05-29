@@ -34,4 +34,19 @@ QUALITY SCORES: Baseline (v3) vs Optimized (v4)
   │ trail-difficulty      │ 5             │ 5         │ 5      │ 5              │ 5         │ 5      │
   └───────────────────────┴───────────────┴───────────┴────────┴────────────────┴───────────┴────────┘
 
-CONCLUSION: v4 maintains quality while reducing tokens 14-29% per call.
+CONCLUSION
+=======================================================
+v4 (optimized-concise) is the clear winner over v3 (baseline):
+
+- Token savings range from 14% to 29% per call, with the largest gains on
+  complex queries (winter-hiking: -29%, three-day-backpacking: -26%).
+- Quality scores are virtually identical across all 5 test cases.
+- The only minor drop is Relevance on winter-hiking (5→4) and Groundedness
+  on day-hike-gear (5→4), both acceptable trade-offs for the cost reduction.
+- Prompt tokens dropped from ~165 avg (v3) to ~87 avg (v4) — a 47% reduction
+  in system prompt size — without degrading the agent's output quality.
+
+RECOMMENDATION: Merge experiment/optimized-concise to main.
+The v4 prompt delivers equivalent guidance with significantly lower API costs.
+GPT-4.1-mini experiment (Phase 3) may offer further savings but should be
+validated separately before production deployment.
